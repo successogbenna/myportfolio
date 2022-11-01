@@ -66,7 +66,7 @@ function Portfolio() {
                         <h3>{data.title}</h3>
                         <div className="portfolio__item-cta">
                             <a href={data.github} className='btn'>Github</a>
-                            <a href={data.demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                            <a href={data.demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
                         </div>
                     </article> 
                 })}   
