@@ -29,19 +29,19 @@ function Contact() {
                         <MdOutlineEmail className='contact__option-icon'/>
                         <h4>Email</h4>
                         <h5>success.ogbenna@outlook.com</h5>
-                        <a href="mailto:success.ogbenna@outlook.com" target='_blank'>Send a Message</a>
+                        <a href="mailto:success.ogbenna@outlook.com" target='_blank' rel="noreferrer">Send a Message</a>
                     </article>
                     <article className="contact__option">
                         <RiMessengerLine className='contact__option-icon' />
                         <h4>Messager</h4>
                         <h5>successful</h5>
-                        <a href="https://m.me/successogbenna" target='_blank'>Send a Message</a>
+                        <a href="https://m.me/successogbenna" target='_blank' rel="noreferrer">Send a Message</a>
                     </article>
                     <article className="contact__option">
                         <BsWhatsapp className='contact__option-icon' />
                         <h4>Whatsapp</h4>
                         <h5>07036119338</h5>
-                        <a href="https://wa.me/+2347036119338" target='_blank'>Send a Message</a>
+                        <a href="https://wa.me/+2347036119338" target='_blank' rel="noreferrer">Send a Message</a>
                     </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
