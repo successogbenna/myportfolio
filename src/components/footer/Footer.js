@@ -7,7 +7,7 @@ import { IoLogoTwitter } from 'react-icons/io'
 function Footer() {
     return (
         <footer>
-            <a href="#home" className='footer__logo'>SUCCEX</a>
+            <a href="#home" className='footer__logo'>Chinedu Ogbenna</a>
             
             <ul className="permalinks">
                 <li><a href="#home">Home</a></li>
@@ -30,7 +30,7 @@ function Footer() {
                 </a>
             </div>
             <div className="footer__copyright">
-                <small>&copy; {new Date().getUTCFullYear()} SUCCESS . All rights reserved</small>
+                <small>&copy; {new Date().getUTCFullYear()} chinedu Ogbenna . All rights reserved</small>
             </div>
         </footer>
     )
